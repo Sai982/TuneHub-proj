@@ -30,9 +30,11 @@ public class PlaylistServiceImplementation implements PlaylistService {
 	}
 	@Override
 	public List<Playlist> viewPlaylist() {
-	List<Playlist> list=playrepo.findAll();
+		List<Playlist> list=playrepo.findAll();
 		return list;
-	}
+			}
+	
+	
 	
 	
 
